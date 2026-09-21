@@ -42,7 +42,7 @@ def run_pipeline(file_path):
     }
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     result = run_pipeline("data/service_data.json")
 
     print("=" * 50)
